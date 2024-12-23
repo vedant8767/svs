@@ -3,6 +3,9 @@ import serviceicon from '../assets/service-icon-01.png'
 import ved from '../assets/ved.jpg'
 import sushant from '../assets/sushant.webp'
 import '../css/Services.css'
+import market from '../assets/google.png'
+import web from '../assets/app-development.png'
+import app from '../assets/mobile-app.png'
 
 function Services() {
   return (
@@ -11,21 +14,20 @@ function Services() {
         <div className="services_card">
             <div className="each_service_card">
                 <h1>Website Development</h1>
-                <img src={serviceicon} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     Deleniti vel non magni esse nihil laudantium.</p>
+                <img src={web} alt="" />
+                <p>Transform your online presence with our custom website development services. We design and build visually appealing, responsive, and user-friendly websites that deliver an exceptional experience across all devices.</p>
             </div>
             <div className="each_service_card">
-                <h1>Website Development</h1>
-                <img src={serviceicon} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     Deleniti vel non magni esse nihil laudantium.</p>
+                <h1>Application Development</h1>
+                <img src={app} alt="" />
+                <p>Our app development team creates robust and scalable mobile applications tailored to your business needs. Whether it's iOS or Android, we focus on delivering seamless functionality and engaging user experiences for your audience.</p>
             </div>
             <div className="each_service_card">
-                <h1>Website Development</h1>
-                <img src={serviceicon} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     Deleniti vel non magni esse nihil laudantium.</p>
+                <h1>SEO Audits</h1>
+                <img src={market} alt="" />
+                <p>Boost your online visibility with our expert SEO services.
+                     We optimize your website to rank higher on search engines,
+                      drive organic traffic, and improve your site's performance, ensuring you reach the right audience effectively.</p>
             </div>
         </div>
         <div className='team'>
