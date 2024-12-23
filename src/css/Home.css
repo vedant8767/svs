@@ -62,14 +62,15 @@
     width: 100%;
    }
    .left_home h1{
-    font-size: 4vh;
+    font-size: 3vh;
+    width: 100%;
    }
    .left_home h3{
-    font-size: 3vh;
+    font-size: 2.5vh;
    }
    .left_home p{
     font-size: 2.5vh;
-    width: 90%;
+    width: 100%;
     line-height: 40px;
    }
 }
