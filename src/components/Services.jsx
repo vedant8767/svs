@@ -2,6 +2,7 @@ import React from 'react'
 import serviceicon from '../assets/service-icon-01.png'
 import ved from '../assets/ved.jpg'
 import sushant from '../assets/sushant.webp'
+import suraj from '../assets/suraj.jpg'
 import '../css/Services.css'
 import market from '../assets/google.png'
 import web from '../assets/app-development.png'
@@ -43,7 +44,7 @@ function Services() {
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg" alt="Card Image" />
+                    <img src={suraj} alt="Card Image" />
                     <div class="overlay">
                     <div class="content">
                         <h3>Suraj Tavare</h3>
@@ -56,7 +57,7 @@ function Services() {
                     <div class="overlay">
                     <div class="content">
                         <h3>Sushant Patil</h3>
-                        <p>Desingner</p>
+                        <p>Operations Lead</p>
                     </div>
                     </div>
                 </div>
