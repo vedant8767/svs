@@ -4,7 +4,7 @@ import '../css/Footer.css'
 function Footer() {
   return (
     <div className="footer">
-            <p>&copy; 2024 SVS Digital. All Rights Reserved. | Designed by Your SVS Digital</p>
+            <p>&copy; 2025 SVS Digital. All Rights Reserved. | Designed by Your SVS Digital</p>
     </div>
   )
 }

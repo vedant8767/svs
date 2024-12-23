@@ -24,6 +24,7 @@
     .footer {
         font-size: 1.8vh; 
         padding: 8px; 
+        line-height: 30px;
     }
 }
 @media (min-width: 768px) and (max-width: 1023px){
