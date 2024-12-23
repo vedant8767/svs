@@ -119,6 +119,9 @@
   }
 
   @media (max-width: 768px) {
+    .services h1{
+      font-size: 3.5vh;
+    }
     .services{
       justify-content: center;
       align-items: center;
@@ -131,12 +134,12 @@
     width: 90%;
    }
    .each_service_card h1{
-    font-size: 4vh;
+    font-size: 2.5vh;
     font-weight: bold;
    }
    .each_service_card p{
-    font-size: 3vh;
-    line-height: 35px;
+    font-size: 2vh;
+    line-height: 30px;
    }
    .each_service_card img{
     width: 30%;
