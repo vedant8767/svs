@@ -117,3 +117,38 @@
   .card:hover .content {
     transform: translateY(0);
   }
+
+  @media (max-width: 768px) {
+    .services{
+      justify-content: center;
+      align-items: center;
+    }
+    .services_card{
+      justify-content: center;
+      align-items: center;
+    }
+   .each_service_card{
+    width: 90%;
+   }
+   .each_service_card h1{
+    font-size: 4vh;
+    font-weight: bold;
+   }
+   .each_service_card p{
+    font-size: 3vh;
+    line-height: 35px;
+   }
+   .each_service_card img{
+    width: 30%;
+    height: 30%;
+   }
+  }
+  @media (min-width: 768px) and (max-width: 1023px){
+  
+  }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+  
+  }
+  @media (min-width: 1920px) {
+  
+  }

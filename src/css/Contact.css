@@ -58,3 +58,42 @@
     padding: 10px 20px;
     border-radius: 20px;
 }
+
+@media (max-width: 768px) {
+   .contact{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    gap: 50px;
+    overflow: hidden;
+    background-color: #FE3F40;
+   }
+   .contact_left{
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+    margin-top: 100px;
+    height: auto;
+   }
+   .contact_right{
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    margin-bottom: 20px;
+    /* height: auto; */
+   }
+   .contact_right form{
+    width: 100%;
+   }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+}
+@media (min-width: 1920px) {
+
+}

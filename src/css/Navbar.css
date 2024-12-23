@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,5 +42,108 @@
     border: none;
     border-radius: 20px;
     font-size: 2.5vh;
-    /* font-weight: 600; */
+} */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    cursor: pointer;
+    background-color: #FAFAFA;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: blue;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.logo span {
+    color: red;
+}
+
+.nav_elements ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.nav_elements ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_elements ul li a:hover {
+    color: #fe4b4b;
+}
+
+.nav_elements ul li button {
+    background-color: #fe4b4b;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 2.5vh;
+    transition: background-color 0.3s ease;
+}
+
+.nav_elements ul li button:hover {
+    background-color: #03A4ED;
+}
+
+/* Hamburger menu styling */
+.hamburger {
+    display: none;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.hamburger span {
+    font-size: 4vh;
+    color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav_elements {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #FAFAFA;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav_elements.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .nav_elements ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav_elements ul li button {
+        font-size: 2vh;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .logo {
+        font-size: 3vh;
+    }
 }
