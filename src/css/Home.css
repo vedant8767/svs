@@ -1,0 +1,47 @@
+.home{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#seo{
+    color: #FE3F40;
+}
+
+.left_home{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding: 70px 50px;
+}
+.left_home span{
+    color: #03A4ED;
+}
+.left_home h3{
+    color:#FE3F40 ;
+    font-weight: 300;
+    font-size: 3vh;
+    margin-bottom: 10px;
+}
+.left_home h1{
+    color:#2A2A2A ;
+    font-size: 7vh;
+}
+.left_home p{
+    color:#2A2A2A ;
+    width: 85%;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.right_home{
+    width: 50%;
+}
+.right_home img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin-top: 80px;
+}
