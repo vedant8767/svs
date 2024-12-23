@@ -1,5 +1,7 @@
 import React from 'react'
 import serviceicon from '../assets/service-icon-01.png'
+import ved from '../assets/ved.jpg'
+import sushant from '../assets/sushant.webp'
 import '../css/Services.css'
 
 function Services() {
@@ -30,7 +32,7 @@ function Services() {
             <h1>Meet Our Team</h1>
             <div className="team_cards">
                 <div class="card">
-                    <img src="https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg" alt="Card Image" />
+                    <img src={ved} alt="Card Image" />
                     <div class="overlay">
                     <div class="content">
                         <h3>Vedant Bhadkamkar</h3>
@@ -48,7 +50,7 @@ function Services() {
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg" alt="Card Image" />
+                    <img src={sushant} alt="Card Image" />
                     <div class="overlay">
                     <div class="content">
                         <h3>Sushant Patil</h3>
